@@ -1,12 +1,10 @@
-﻿// Программа возводит число в квадрат.
-// тип переменной <пробел> имя переменной = конвертирование в тип данных переменной + считывание с консоли
+﻿int N = 10;
+int sum = 1;
+int per = 1;
 
-int number = Convert.ToInt32(Console.ReadLine());
-
-// возвести число в квадрат
-int sqr = number * number;
-
-// возвести в квадрат с помощью класса Math
-int sqrMath = Convert.ToInt32(Math.Pow(number, 2));
-
-System.Console.WriteLine(sqrMath);
+for (int i=1; i<=N; i++ )
+{
+    sum = sum*2;
+    per = per+sum;
+    System.Console.WriteLine(per);
+}

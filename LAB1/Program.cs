@@ -6,5 +6,5 @@ for (int i=1; i<=N; i++ )
 {
     sum = sum*2;
     per = per+sum;
-    System.Console.WriteLine(per);
 }
+System.Console.WriteLine(per);
